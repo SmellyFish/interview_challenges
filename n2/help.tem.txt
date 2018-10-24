@@ -1,0 +1,10 @@
+This is a command line PHP script that expects one option
+
+	Usage: 
+	answer.php <option>
+	<option> can be a path to a valid file that has two integers separated by
+	spaces. The program will output only integers that exist in the range
+	between these two numbers where the sum of all the digits is evenly
+	divisible by four. Additionally, the program will output an asterisk ("*")
+	next to the integer if the sum of its digits is also evenly divisible by
+	eight. Each number will be outputted on a separate line.

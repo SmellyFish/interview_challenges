@@ -1,0 +1,11 @@
+This is a command line PHP script that expects one option
+
+	Usage: 
+	answer.php <option>
+	<option> can be a path to a valid file that contains a single line of text
+	which [the text] will be filtered and compacted as specified:
+	1) the output will be only alphanumeric characters (0-9, A-Z, a-z)
+	2) the output will remove any adjacent alphanumeric duplicates,
+	including duplicates separated by non- alphanumeric characters.
+	This program assumes that the input (both file path and contents) provided
+	will be from the ASCII character set.
